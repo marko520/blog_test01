@@ -2,8 +2,8 @@ body
 {
     font-size: 22;
     color: #333;
-    text-align: left;
-    font-family: 'Papyrus', sans-serif;
+    text-align: center;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body
 {
     width: 70%;
     padding: 1.5em;
-    text-align: right;
+    text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
 }
