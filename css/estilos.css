@@ -1,5 +1,7 @@
 body
 {
+    background-attachment: fixed;
+    background: black;
     font-size: 20;
     color: #333;
     text-align: center;
@@ -10,17 +12,32 @@ body
 
 #cabecera
 {
-    background:#33A;
+    /* background: url("../imagenes/dragon.png") no-repeat center center; */
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: white;
-    font-family: courier;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
 }
+
+#cabecera #logo 
+{
+    width: 20px
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Calibri;
+}
+
 
 #container
 {
+    background: white;
     width: 70%;
     padding: 0;
     text-align: left;
@@ -36,6 +53,8 @@ body
 
 #post h2
 {
+    background: whitesmoke;
+    padding: 1em;
     font-size: 18px;
     font-family: 'Helvetica', sans-serif;
 }
